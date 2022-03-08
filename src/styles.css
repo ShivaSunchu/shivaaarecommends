@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.App {
+  font-family: sans-serif;
+  margin: 4.5rem;
+}
+:root {
+  --primary-color: #f0d290;
+  --secondary-color: #de834d;
+  --tertiary-color: #a3423c;
+  --fourth-color: #781d42;
+}
+body {
+  background-color: var(--primary-color);
+  font-family: "Itim", cursive;
+}
+.off {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.54rem;
+}
+.ow {
+  margin-top: 0rem;
+
+  font-family: sans-serif;
+}
+.output {
+  background-color: #f1f5f9;
+  max-width: 75%;
+  height: 30vh;
+}
+.button {
+  font-family: "Spectral", serif;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem 0.4rem;
+  background-color: var(--tertiary-color);
+  color: white;
+  margin: 0.5rem 3.5rem;
+}
+.buttons {
+  margin: 0;
+  position: absolute;
+  left: 29%;
+}
+
+.footer {
+  position: fixed;
+  background-color: #ffe19f;
+  text-align: center;
+  height: 2vh;
+  width: 100%;
+  left: 0;
+  bottom: 0.5rem;
+  padding: 0.5rem;
+  font-family: sans-serif;
+}
+.database {
+  font-family: "Quando", serif;
+}
+.links {
+  color: var(--fourth-color);
+  background-color: wheat;
+  padding: 0.4rem 0.4rem;
+  border-radius: 0.5rem 0.2rem;
+}
+.lineBreak {
+  border: 0.005rem solid black;
+}
